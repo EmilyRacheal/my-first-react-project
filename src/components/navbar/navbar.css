@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Roboto&display=swap');
+
+
+.parent {
+  width: 100%;
+  /* background-color: #21325E; */
+  height: 70px;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  width: 150px;
+  height: -60px;
+  font-family: 'Fredoka', sans-serif;
+  font-size: 25px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F0F0F0;
+    color: #21325E;
+    /* font-size: 18px; */
+    /* font-weight: 600; */
+}
+.btn:hover{
+    background: #F0F0F0;
+    color: #F1D00A;
+    transition: 0.5s all;
+    font-weight: bold;
+
+}
+
+.cart-icon {
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  /* color: #F0F0F0; */
+}
+
+.link-box {
+  display: flex;
+}
+
+.links {
+  color: #F0F0F0;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.links:hover{
+    color: #F1D00A;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
